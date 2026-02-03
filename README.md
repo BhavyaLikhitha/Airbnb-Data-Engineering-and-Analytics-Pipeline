@@ -19,3 +19,12 @@ CREATE OR REPLACE STAGE snowstage
 FILE_FORMAT = csv_format
 URL='s3://airbnb-etl-pipeline/source/';
 ```
+steps for doing:
+- uv init
+- uv sync (Create a virtual env)
+- uv add dbt-core
+- uv add dbt-snowflake (connecting an adapter)
+- dbt init
+- ..\.\.venv\Scripts\dbt.exe debug
+- .\.venv\Scripts\Activate.ps1
+
