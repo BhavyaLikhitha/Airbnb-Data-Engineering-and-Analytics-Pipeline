@@ -1,0 +1,13 @@
+airbnb_dbt_pipeline:
+  outputs:
+    dev:
+      account: IKZQFMX-KKC80571
+      database: AIRBNB
+      password: ****************
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: BHAVYALIKHITHA
+      warehouse: COMPUTE_WH
+  target: dev
