@@ -28,3 +28,7 @@ steps for doing:
 - ..\.\.venv\Scripts\dbt.exe debug
 - .\.venv\Scripts\Activate.ps1
 
+- macros are like used for doing a repetetive task on multiple tables (transformations)
+- 
+
+
