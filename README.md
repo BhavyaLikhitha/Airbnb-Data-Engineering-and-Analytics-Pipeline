@@ -29,6 +29,4 @@ steps for doing:
 - .\.venv\Scripts\Activate.ps1
 
 - macros are like used for doing a repetetive task on multiple tables (transformations)
-- 
-
-
+-  have to build silver and gold layers
