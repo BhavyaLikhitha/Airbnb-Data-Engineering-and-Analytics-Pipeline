@@ -25,6 +25,7 @@ steps for doing:
 - uv add dbt-core
 - uv add dbt-snowflake (connecting an adapter)
 - dbt init
+
 - ..\.\.venv\Scripts\dbt.exe debug
 - .\.venv\Scripts\Activate.ps1
 
