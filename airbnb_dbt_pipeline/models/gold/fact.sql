@@ -18,3 +18,16 @@
     }
 ] %}
 
+
+SELECT 
+        {{ congigs[0]['columns'] }}
+
+FROM
+    {% for config in congigs %}
+    {% if loop.first %}
+      {{ config['table'] }} AS {{ config['alias'] }}
+    {% else %}
+        LEFT JOIN {{ config['table'] }} AS {{ config['alias'] }}
+        ON {{ config['join_condition'] }}
+        {% endif %}
+        {% endfor %}
