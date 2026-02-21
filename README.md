@@ -31,3 +31,14 @@ steps for doing:
 
 - macros are like used for doing a repetetive task on multiple tables (transformations)
 -  have to build silver and gold layers
+
+- in silver layer we will upsert the data , new rows aded in bronxe
+
+- meta data driven pipelines using dbt and jinja and configurations in jinja (obt - one big table)
+- now transform obt to facts and dim
+
+- scd 2 (we create versions or start date and end date)
+- snapshots 
+
+- ephimeral models
+dbt test, dbt run --select gold, dbt compile, dbt snapshot, dbt build
