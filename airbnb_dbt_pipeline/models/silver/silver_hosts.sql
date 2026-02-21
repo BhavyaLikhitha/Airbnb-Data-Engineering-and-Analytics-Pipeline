@@ -15,3 +15,5 @@ SELECT
     CREATED_AT AS CREATED_AT
 FROM 
     {{ ref('bronze_hosts') }}
+
+

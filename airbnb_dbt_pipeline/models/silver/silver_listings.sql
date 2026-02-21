@@ -17,3 +17,4 @@ FROM
     {{ ref('bronze_listings') }}
 
     
+
