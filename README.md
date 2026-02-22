@@ -50,7 +50,7 @@ This project solves that by creating a fully reproducible pipeline that standard
 
 ---
 
-## 📊 Dashboard
+## 📊 Dashboard (Looker Studio)
 
 <div align="center">
 
