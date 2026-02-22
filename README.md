@@ -464,22 +464,6 @@ uv add dbt-core dbt-snowflake
 
 Create `~/.dbt/profiles.yml` (or copy from `profiles example.yml`):
 
-```yaml
-airbnb_dbt_pipeline:
-  target: dev
-  outputs:
-    dev:
-      type: snowflake
-      account: <your-account>
-      user: <your-user>
-      password: <your-password>
-      role: <your-role>
-      warehouse: <your-warehouse>
-      database: AIRBNB
-      schema: DEV
-      threads: 4
-```
-
 ### 4. Validate Connection
 
 ```bash
