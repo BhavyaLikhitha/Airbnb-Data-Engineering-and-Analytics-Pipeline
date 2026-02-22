@@ -167,40 +167,13 @@ The IAM policy intentionally separates `s3:ListBucket` (on the bucket) from `s3:
 
 ## 📁 Dataset Details
 
-The pipeline ingests three core Airbnb datasets stored as CSVs in S3:
+The pipeline ingests three core Airbnb datasets stored as CSVs in S3, totaling over **5,000+ rows** across all sources:
 
-### Bookings
-
-| Column | Description |
-|--------|-------------|
-| `BOOKING_ID` | Unique identifier for each booking |
-| `LISTING_ID` | Foreign key to the listing |
-| `HOST_ID` | Foreign key to the host |
-| `BOOKING_DATE` | Date the booking was made |
-| `BOOKING_STATUS` | Status (confirmed, cancelled, etc.) |
-| `PRICE` | Booking price |
-| `NIGHTS` | Number of nights booked |
-
-### Listings
-
-| Column | Description |
-|--------|-------------|
-| `LISTING_ID` | Unique identifier for each listing |
-| `HOST_ID` | Foreign key to the host |
-| `PROPERTY_TYPE` | Type of property (apartment, house, etc.) |
-| `ROOM_TYPE` | Room type (entire home, private room, etc.) |
-| `PRICE_PER_NIGHT` | Nightly rate |
-| `CITY` | City where the listing is located |
-| `COUNTRY` | Country where the listing is located |
-
-### Hosts
-
-| Column | Description |
-|--------|-------------|
-| `HOST_ID` | Unique identifier for each host |
-| `HOST_NAME` | Name of the host |
-| `IS_SUPERHOST` | Whether the host has superhost status |
-| `HOST_SINCE` | Date the host joined Airbnb |
+| Table | Description |
+|-------|-------------|
+| **Bookings** | Reservation records including dates, status, pricing, and duration |
+| **Listings** | Property details — type, room type, nightly rate, city, and country |
+| **Hosts** | Host profiles with superhost status and join date |
 
 ---
 
